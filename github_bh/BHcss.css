@@ -1,0 +1,143 @@
+ul {
+   list-style-type: none;
+   float: right;
+   margin: 0;
+   padding: 0;
+   width: 200px;
+   height: 115px;
+   background-color: #f1f1f1;
+   border: 1px solid #555;
+   font-size: 15;
+   font-family: "Courier";
+ }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  body {
+    font-family: 'Courier';font-size: 22px;color:black
+}
+
+.left {
+  float: left;
+  margin-right: 1em;
+}
+
+.right {
+  float: right;
+  margin-left: 1em;
+}
+
+h2 {
+  border: 2px solid black;
+  display:inline-block;
+  padding: 20;
+  font-family: 'Courier';
+
+}
+
+h1 {
+  position: absolute;
+  left: 420px;
+  padding: 10;
+  font-family: "Courier";
+
+  
+}
+
+h3 {
+  position: absolute;
+  left: 510px;
+  top: 100px;
+  font-family: 'Courier';
+}
+
+h4 {
+  position: absolute;
+  left: 563px;
+  font-family: 'Courier';
+}
+
+h5 {
+  position: absolute;
+  left: 500px;
+  font-family: 'Courier';
+}
+
+#text {
+  left: 510px;
+  top: 300px;
+
+}
+
+p.one {
+  position:absolute; 
+  top:400px; 
+  left:50px;
+  font-family: 'Courier'; 
+}
+
+p.two {
+  position:absolute; 
+  top:130px; 
+  left:400px; 
+  font-family: 'Courier';
+}
+
+p.three {
+  position:absolute; 
+  top:350px; 
+  left:1020px; 
+  font-family: 'Courier';
+}
+
+p.four {
+  position:absolute; 
+  top:600px; 
+  left:560px; 
+  font-family: 'Courier';
+}
+
+p.five {
+  position:absolute; 
+  top:460px; 
+  left:10px; 
+  border-style: solid;
+  border-width: 2px;
+  padding:4;
+  font-family: 'Courier';
+
+}
+
+p.six {
+  position:center; 
+  text-align: center;
+  top:500px; 
+  left:10px; 
+  font-family: 'Courier';
+
+}
+
